@@ -13,9 +13,6 @@ var y2 = 58.975;
 //Variables that relate to the expansion of the background shapes.
 var expand, xFactor, yFactor;
 
-//Not sure if I still need these. Still works without them weirdly enough.
-// var rCol, gCol, bCol;
-
 var frame;
 var multiply = 32;
 var scale;
@@ -128,13 +125,6 @@ function draw() {
 
     endShape(CLOSE);
 
-    // beginShape();
-    
-    
-    // endShape(CLOSE);
-
-    
-  
   }
 
   //This helps to optimise the site by removing the first item on the list,
@@ -156,15 +146,6 @@ function draw() {
       vertex(x4*responsive,y2*responsive); //bottom left
     endShape(CLOSE);
   pop();
-
-  //Test text
-  // push();
-  //   fill(0);
-  //   noStroke();
-  //   text(frameCount,0,100);
-
-  // pop();
-
 
 }
 
