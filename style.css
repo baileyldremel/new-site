@@ -3,12 +3,22 @@
   src: url(assets/SpaceGrotesk.ttf);
 }
 
+@keyframes screenload{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 html, body {
   margin: 0;
   padding: 0;
   font-family: "SpaceGrotesk", "Arial", san-serif;
   overflow:hidden;
   background-color:#190d1f;
+}
+
+body{
+  animation-name: screenload;
+  animation-duration: 2s;
 }
 
 h1, p{
@@ -23,7 +33,6 @@ h1{
 p{
   font-size: 1em;
   font-weight: 100;
-  
 }
 
 button{
@@ -57,6 +66,12 @@ header{
   padding: 0 10px;
 }
 
+header p{
+  color:#190d1f;
+  font-size: 1em;
+  font-weight: 500;
+}
+
 .headerItem{
   padding:5px;
   max-height:30px;
@@ -66,12 +81,6 @@ header{
   opacity: 80%;
   cursor: pointer;
   text-decoration: underline;
-}
-
-header p{
-  color:#190d1f;
-  font-size: 1em;
-  font-weight: 500;
 }
 
 .center{
