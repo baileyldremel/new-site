@@ -9,7 +9,7 @@
 <p align="center">
     <picture align="center">
         <source media="(prefers-color-scheme: dark)" srcset="./assets/logomarkdarktheme.png">
-        <img alt="baileydremel glasses logo with text below saying baileydremel" src="./assets/logomarklighttheme.png" width="50%">
+        <img alt="baileydremel glasses logo with text below saying baileydremel" src="./assets/logomarklighttheme.png" width="250px">
     </picture>
 </p>
 
